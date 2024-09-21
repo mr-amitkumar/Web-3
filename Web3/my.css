@@ -1,0 +1,95 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background-image: url("adult-1850925_1280.jpg");
+    color: white;
+}
+
+.div1 {
+    display: inline-block;
+    left: 22px;
+    top: 12px;
+    position: absolute;
+}
+
+.div1 img {
+    margin: 3px 6px;
+    padding: 3px 3px;
+    height: 80px;
+    width: 80px;
+}
+
+.div2 {
+    display: block;
+    width: 45%;
+    margin: 2px auto;
+    margin-top: 12px;
+}
+
+.div3 {
+    display: inline-block;
+    right: 22px;
+    position: absolute;
+    top: 12px;
+}
+
+.navbar ul {
+    overflow: hidden;
+
+}
+
+.navbar li {
+    list-style: none;
+    float: left;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: white;
+    margin: 21px;
+    padding: 3px;
+    letter-spacing: 2px;
+}
+
+.navbar li a:hover {
+    font-size: 22px;
+    color: grey;
+    text-decoration: underline;
+}
+
+.btn {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    margin: 6px;
+    width: 95px;
+    border-radius: 10px;
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: grey;
+    text-decoration: underline;
+
+}
+
+.abc {
+    border: 2px solid red;
+    float: left;
+    padding: 50px 121px;
+    margin: 157px;
+    border-radius: 22px;
+}
+form div{
+    margin:12px;
+    
+}
+.abc input{
+    border-radius: 22px;
+    text-align: center;
+    font-size: 15px;
+    padding: 6px 47px;
+}
+h1{
+    text-align: center;
+}
