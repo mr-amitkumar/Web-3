@@ -1,1 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Gym</title>
+
+    <link rel="stylesheet" href="my.css">
+</head>
+
+<body>
+    <header class="cointainer">
+        <div class="div1">
+            <!-- im left -->
+            <img src="gym.png" alt="">
+        </div>
+        <div class="div2">
+            <!-- im mid -->
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Fitness Routine</a></li>
+                    <li><a href="#">Contact us</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="div3">
+            <!-- i m right -->
+            <button class="btn">Submit</button>
+        </div>
+        </div>
+        <div class="abc">
+            <h1> Register Here</h1>
+            <form action="post.php">
+                <div> <input type="text" name="" placeholder="Name"><br></div>
+                <div> <input type="text" name="" placeholder="city"><br></div>
+                <div> <input type="text" name="" placeholder="state"><br></div>
+                <div> <input type="text" name="" placeholder="pincode"><br></div>
+                <div> <input type="text" name="" placeholder="gender"><br></div>
+                <div> <input type="tel" name="" placeholder="phone number"><br></div>
+                <div> <input type="text" name="" placeholder="Address"><br></div>
+                <div> <input type="email" name="" placeholder="Email"><br></div>
+            </form>
+        </div>
+    </header>
+</body>
+
+</html>
